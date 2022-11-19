@@ -4,7 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">                
+    <style>
+        /* Universal selector */
+*{
+    color: #770e13;
+    font-weight: bold;
+}
+
+/* individual selector */
+body{
+    background-color: #ecadadbc;
+    
+}
+/* combined selector */
+h1,a{
+    text-align:center;          /* center */
+    color: #0000ff;
+    
+}
+/* sibling selector */
+h1 + p {
+    text-align: end;            /* end */
+    color: #ff4f04;
+   
+}
+/* inline selector */
+div li {
+    text-align: start;          /* start */
+    color: #f801c6;
+
+}
+/* class selector */
+.section2{
+    text-align: justify;            /* justify */
+}
+/* id selector */
+#right{                     
+    text-align: right;          /* right */
+    color: #e99206;
+}
+/* direct child */
+div > p {
+    text-align: left;         /*   left */
+    color: #6A1B4D;
+   
+}
+span{
+    text-align: center;
+    display: inline-block;
+    width:500px;
+    background-color: #5f5fb8;
+    /* background-color: rgb(74, 199, 231);     */
+}
+.inherit{
+    background-color: #ef8def;
+    text-align: inherit;
+}
+.right-inherit{
+    text-align: right;
+}
+
+    
+.start
+{
+    text-align: start;
+    direction: rtl;
+}
+.end
+{
+    text-align: end;
+    direction: rtl;
+}
+.right{
+text-align: right;
+direction: rtl;
+
+}
+.left{
+    text-align: left;
+    direction: rtl;
+
+}
+    </style>              
     <title>Properties of CSS</title>
 </head>
 <body>
